@@ -1,0 +1,44 @@
+/* Kompletter container */
+.navigation {
+    margin-left: 1rem;
+
+}
+
+/* Navigationbuttons  */
+.navbut {
+    width: 12rem;
+    margin: 0.1rem;
+    height: 2rem;
+    background-color: rgb(50, 146, 141);
+    border-style: none;
+    color: whitesmoke;
+}
+
+.navbut:hover {
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    height: 2.1rem;
+    background-size: 300% 100%;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, rgb(4, 221, 237), rgb(10, 175, 245), rgb(3, 224, 224));
+    box-shadow: 0 4px 15px 0 rgba(10, 229, 203, 0.75);
+    background-position: 100% 0;
+}
+
+.navbut:active {
+    color: green;
+    transition: 0;
+}
+
+/* Header im Container */
+.leistehead {
+    font-size: 1.3rem;
+    color: aquamarine;
+    text-align: center;
+    width: 12rem;
+    margin-bottom: 2rem;
+}

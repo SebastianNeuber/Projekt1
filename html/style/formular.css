@@ -1,0 +1,102 @@
+/* Kompletter Container inkl aktueller Frage und ausgewähltem Dozenten */
+.formularpage {
+    height: 100%;
+    margin-top: 2rem;
+}
+
+/* submitbutton */
+.submitbut {
+    margin-top: 1rem;
+    border-radius: 50px;
+    width: 15rem;
+    height: 2rem;
+    border-style: none;
+    text-align: center;
+
+}
+
+/* Ausgewählter Dozent und Frage Container*/
+.choosen,
+.question {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.question {
+    color: aquamarine;
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.6);
+    font-size: 1.5rem;
+}
+
+
+.choosen {
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    background-color: white;
+    background-image: url(../media/frog1.png);
+    background-repeat: no-repeat;
+    background-size: 2.2rem 2.2rem;
+    background-position: center left 20%;
+    transition: 0s;
+    color: red;
+    box-shadow: 0 4px 15px 0 rgba(255, 0, 0, 0.75);
+    width: 50%;
+    height: 2rem;
+    margin: auto;
+    border-radius: 50px;
+}
+
+/* Ausgewählter Dozent text */
+.choosentxt {
+    margin-top: 0.1rem;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+/* Das Formular selbst */
+.display-grid {
+    display: grid;
+    grid-template-columns: 1fr 20px;
+    margin: 3rem 1rem;
+}
+
+/* formular texte */
+label {
+    grid-column: 1 / 2;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+input,
+button {
+    grid-column: 2 / 2;
+}
+
+/* submitbutton Klasse */
+.chkimg {
+    width: 100%;
+    height: 100%;
+    border-style: none;
+}
+
+.chkimg:hover {
+    box-shadow: 0 2px 20px 0 rgba(25, 252, 67, 0.75);
+    background-image: url(../media/check.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+/* Text vor dem Submitbutton */
+.submittxt {
+    text-align: end;
+    color: rgb(7, 255, 201);
+}
+
+.radiobut {
+    color: red;
+}

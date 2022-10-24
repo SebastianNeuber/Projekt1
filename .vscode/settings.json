@@ -1,0 +1,30 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "username": "VSCode",
+            "password": "admin",
+            "name": "Codecamp",
+            "database": "codecamp"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": false,
+            "driver": "MariaDB",
+            "name": "project",
+            "username": "root",
+            "database": "results"
+        }
+    ]
+}

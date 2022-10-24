@@ -1,0 +1,47 @@
+/* Container der die Buttons beinhaltet */
+.dozent {
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    justify-content: center;
+
+}
+
+/* Buttons mit den Namen des Dozenten */
+.dozentButt {
+    width: 50%;
+    height: 2rem;
+    margin: 0.3rem;
+    border-radius: 50px;
+    border-style: none;
+}
+
+.dozentButt:hover {
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    height: 2.1 rem;
+    background-size: 200% 100%;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, rgb(254, 52, 52), rgb(159, 37, 37), rgb(255, 5, 5));
+    box-shadow: 0 4px 15px 0 rgba(255, 0, 0, 0.75);
+    background-position: 100% 0;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+
+
+.dozentButt:active {
+
+    background-image: url(../media/frog1.png);
+    background-repeat: no-repeat;
+    background-size: 2.2rem 2.2rem;
+    background-position: center left 31%;
+    transition: 0s;
+    color: red;
+}
